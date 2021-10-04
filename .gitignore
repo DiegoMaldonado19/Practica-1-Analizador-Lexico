@@ -1,4 +1,4 @@
-.class
+*.class
 *.jar
 *.mf
-.docx
+*.docx
