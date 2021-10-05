@@ -180,7 +180,7 @@ public class VistaFrame extends javax.swing.JFrame {
         if(seleccion == JFileChooser.APPROVE_OPTION){
             File fichero = fileChosser.getSelectedFile();
             try {
-                this.lineas = this.lectorArchivo.leerDatos(fichero, this.textAreaPrincipal);
+                this.lectorArchivo.cargarDatos(fichero, this.textAreaPrincipal);
             } catch (IOException ex) {
                 JOptionPane.showMessageDialog(this, "Error al leer el archivo");
                 ex.printStackTrace();
