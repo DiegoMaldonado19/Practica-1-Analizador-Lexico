@@ -5,6 +5,7 @@
 package vista;
 
 
+import controlador.AnalizarLexema;
 import controlador.LectorDeArchivosEnTexto;
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +19,7 @@ import javax.swing.JOptionPane;
 public class VistaFrame extends javax.swing.JFrame {
     
    private LectorDeArchivosEnTexto lectorArchivo;
-   private String[] lineas;
+   private AnalizarLexema analizarLexema;
 
     /**
      * Creates new form VistaFrame
@@ -29,6 +30,7 @@ public class VistaFrame extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.lectorArchivo = new LectorDeArchivosEnTexto();
+        this.analizarLexema = new AnalizarLexema();
         
     }
 
@@ -59,7 +61,6 @@ public class VistaFrame extends javax.swing.JFrame {
 
         textAreaPrincipal.setColumns(20);
         textAreaPrincipal.setRows(5);
-        jScrollPane1.setViewportView(textAreaPrincipal);
 
         textAreaSecundario.setColumns(20);
         textAreaSecundario.setRows(5);
@@ -77,6 +78,11 @@ public class VistaFrame extends javax.swing.JFrame {
         jLabel2.setText("Analizar Texto");
 
         botonAnalizar.setText("Analizar");
+        botonAnalizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAnalizarActionPerformed(evt);
+            }
+        });
 
         botonBusqueda.setText("Buscar");
 
@@ -192,6 +198,10 @@ public class VistaFrame extends javax.swing.JFrame {
     private void botonExportarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonExportarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_botonExportarActionPerformed
+
+    private void botonAnalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAnalizarActionPerformed
+        this.analizarLexema.recibirLexema(this.textAreaPrincipal);
+    }//GEN-LAST:event_botonAnalizarActionPerformed
 
    
 
