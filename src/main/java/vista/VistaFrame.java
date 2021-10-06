@@ -1,7 +1,8 @@
 package vista;
 
 
-import controlador.AnalizarLexema;
+import controlador.AnalisisLexico;
+import controlador.SeparacionTexto;
 import controlador.LectorDeArchivosEnTexto;
 import java.io.File;
 import java.io.IOException;
@@ -15,6 +16,8 @@ import javax.swing.JOptionPane;
 public class VistaFrame extends javax.swing.JFrame {
     
    private LectorDeArchivosEnTexto lectorArchivo;
+   private SeparacionTexto separarTexto;
+   private AnalisisLexico analizarLexema;
 
     /**
      * Creates new form VistaFrame
@@ -25,6 +28,8 @@ public class VistaFrame extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.lectorArchivo = new LectorDeArchivosEnTexto();
+        this.separarTexto = new SeparacionTexto();
+        this.analizarLexema = new AnalisisLexico();
         
     }
 
@@ -191,7 +196,7 @@ public class VistaFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_botonExportarActionPerformed
 
     private void botonAnalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAnalizarActionPerformed
-        
+        this.analizarLexema.analisis(this.separarTexto.crearLexema(this.textAreaPrincipal), this.textAreaSecundario);
     }//GEN-LAST:event_botonAnalizarActionPerformed
 
    

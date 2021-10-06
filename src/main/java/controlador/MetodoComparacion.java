@@ -103,4 +103,20 @@ public class MetodoComparacion {
         
         return isPuntuacion;
     }
+    
+    /**
+     * Metodo para saber si nuestro caracter es un caracter vacio
+     * @param caracter  caracter que forma parte de nuestro lexema
+     * @return 
+     */
+    public boolean isVacio(char caracter){
+        boolean isVacio = false;
+        
+        if(caracter==' '){
+            isVacio = true;
+            return isVacio;
+        }
+        
+        return isVacio;
+    }
 }

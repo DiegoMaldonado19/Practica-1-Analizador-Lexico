@@ -24,7 +24,7 @@ public class LectorDeArchivosEnTexto {
         String linea;
     
         while((linea = br.readLine()) != null){
-            areaTexto.append("\n"+linea);
+            areaTexto.append(linea+"\n");
         }
         fr.close();
     }   
