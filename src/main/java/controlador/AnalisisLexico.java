@@ -3,11 +3,16 @@ package controlador;
 import javax.swing.JTextArea;
 
 /**
- *
+ * Clase que se encarga de realizar el analisis lexico llamando a los metodos de las otras clases
  * @author ACER
  */
 public class AnalisisLexico {
     
+    /**
+     * Metodo que hace el llamado a los metodos para realizar las comparaciones
+     * @param texto arreglo de caracteres
+     * @param areaTexto TextArea que tiene almacenados todos los caracteres
+     */
     public void analisis(char[] texto, JTextArea areaTexto){
         MetodoComparacion comparacion = new MetodoComparacion();
         
