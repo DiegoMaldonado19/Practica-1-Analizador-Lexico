@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package vista;
 
 
@@ -19,7 +15,6 @@ import javax.swing.JOptionPane;
 public class VistaFrame extends javax.swing.JFrame {
     
    private LectorDeArchivosEnTexto lectorArchivo;
-   private AnalizarLexema analizarLexema;
 
     /**
      * Creates new form VistaFrame
@@ -30,7 +25,6 @@ public class VistaFrame extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         this.lectorArchivo = new LectorDeArchivosEnTexto();
-        this.analizarLexema = new AnalizarLexema();
         
     }
 
@@ -200,7 +194,7 @@ public class VistaFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_botonExportarActionPerformed
 
     private void botonAnalizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAnalizarActionPerformed
-        this.analizarLexema.recibirLexema(this.textAreaPrincipal);
+        
     }//GEN-LAST:event_botonAnalizarActionPerformed
 
    

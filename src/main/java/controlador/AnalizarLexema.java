@@ -1,4 +1,3 @@
-
 package controlador;
 
 import javax.swing.JTextArea;

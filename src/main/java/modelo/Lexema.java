@@ -1,4 +1,3 @@
-
 package modelo;
 
 /**
@@ -68,7 +67,4 @@ public class Lexema {
     public void setTipoLexema(TipoLexema tipoLexema) {
         this.tipoLexema = tipoLexema;
     }
-    
-    
-    
 }
