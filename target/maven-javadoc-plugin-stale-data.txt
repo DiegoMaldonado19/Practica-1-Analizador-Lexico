@@ -1,0 +1,59 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'16'
+-sourcepath
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Practica1-Analizador-Lexico 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Practica1-Analizador-Lexico 1.0-SNAPSHOT API'
+controlador
+main
+modelo
+vista
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/AnalisisLexico.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/EscritorDeArchivosEnTexto.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/LectorDeArchivosEnTexto.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/MaquinaEstados.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/MetodoComparacion.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/RecopilacionLexema.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/controlador/SeparacionTexto.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/main/Main.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/modelo/TipoToken.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/modelo/Token.java'
+'C:/Users/ACER/Desktop/Segundo Semestre 2021/Lenguajes Formales y de Programación/Practica1-Analizador-Lexico/src/main/java/vista/VistaFrame.java'
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\src\main\java = 1633382476896
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\allclasses-index.html = 1633570701087
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\allpackages-index.html = 1633570701096
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\element-list = 1633570700756
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\help-doc.html = 1633570701178
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\index-all.html = 1633570701164
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\index.html = 1633570701049
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\jquery-ui.overrides.css = 1633570701285
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\member-search-index.js = 1633570701112
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\module-search-index.js = 1633570701099
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\overview-summary.html = 1633570701170
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\overview-tree.html = 1633570701038
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\package-search-index.js = 1633570701102
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\script.js = 1633570701192
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\search.js = 1633570701203
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\serialized-form.html = 1633570700875
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\stylesheet.css = 1633570701186
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\tag-search-index.js = 1633570701122
+C:\Users\ACER\Desktop\Segundo Semestre 2021\Lenguajes Formales y de Programación\Practica1-Analizador-Lexico\target\site\apidocs\type-search-index.js = 1633570701106

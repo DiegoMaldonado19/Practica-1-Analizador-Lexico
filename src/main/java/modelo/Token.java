@@ -4,7 +4,7 @@ package modelo;
  *
  * @author ACER
  */
-public class Lexema {
+public class Token {
     /**
      * Clase Lexema para generar objetos de tipo lexema, de esta manera guardarmos su contenido y tipo
      */
@@ -16,14 +16,14 @@ public class Lexema {
     /**
      * Objeto de tipo enum para saber que tipo de lexema tenemos
      */
-    private TipoLexema tipoLexema;
+    private TipoToken tipoLexema;
 
     /**
      * Constructor por defecto de la clase lexema
      * @param lexema conjunto de chars que conforman el lexema
      * @param tipoLexema  tipo de lexema
      */
-    public Lexema(char[] lexema, TipoLexema tipoLexema) {
+    public Token(char[] lexema, TipoToken tipoLexema) {
         this.lexema = lexema;
         this.tipoLexema = tipoLexema;
     }
@@ -32,7 +32,7 @@ public class Lexema {
      * Constructor para instanciar un objeto solo con su conjunto de chars
      * @param lexema conjunto de caracteres que conforman el lexema
      */
-    public Lexema(char[] lexema) {
+    public Token(char[] lexema) {
         this.lexema = lexema;
     }
 
@@ -56,7 +56,7 @@ public class Lexema {
      * Getter para obtener el tipo de lexema
      * @return 
      */
-    public TipoLexema getTipoLexema() {
+    public TipoToken getTipoLexema() {
         return tipoLexema;
     }
 
@@ -64,7 +64,7 @@ public class Lexema {
      * Setter para setear el tipo de lexema
      * @param tipoLexema 
      */
-    public void setTipoLexema(TipoLexema tipoLexema) {
+    public void setTipoLexema(TipoToken tipoLexema) {
         this.tipoLexema = tipoLexema;
     }
 }

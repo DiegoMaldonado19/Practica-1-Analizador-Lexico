@@ -4,7 +4,7 @@ package modelo;
  *
  * @author ACER
  */
-public enum TipoLexema {
+public enum TipoToken {
     /**
      * Conjunto de enumeraciones para describir el tipo de lexema que tenemos
      */
